@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "消费手账 · 公开测试版",
+  "short_name": "手账测试版",
+  "description": "消费手账临时测试版，记录仅保存在当前浏览器。",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f7fa",
+  "theme_color": "#f5f7fa",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
