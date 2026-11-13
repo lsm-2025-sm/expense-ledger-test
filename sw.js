@@ -1,6 +1,6 @@
 // Generated from production assets. Personal ledger data stays in IndexedDB.
-const CACHE = 'expense-ledger-assets-535d8e3dc2c9353f';
-const ASSETS = ["./apple-touch-icon.png","./assets/index-B9YNC-O3.js","./assets/index-CmwkNnSP.css","./assets/web-5QNQLKwD.js","./assets/web-Cle3qhhn.js","./icon-192.png","./icon-512.png","./icon.svg","./index.html","./manifest.webmanifest"];
+const CACHE = 'expense-ledger-assets-efb499b39b5acc0c';
+const ASSETS = ["./apple-touch-icon.png","./assets/index-CmwkNnSP.css","./assets/index-aabha7VZ.js","./assets/web-DBEAh9Hb.js","./assets/web-DC5T8UQT.js","./icon-192.png","./icon-512.png","./icon.svg","./index.html","./manifest.webmanifest","./samples/2026-11/categories.json","./samples/2026-11/expected.json","./samples/2026-11/journal_settings.json","./samples/2026-11/records/2026-11.json","./samples/2026-11/settings.json"];
 const URLS = new Set(ASSETS.map(path => new URL(path, self.registration.scope).href));
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)));
